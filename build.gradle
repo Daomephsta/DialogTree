@@ -1,0 +1,21 @@
+plugins 
+{
+    // Apply the java plugin to add support for Java
+    id 'java'
+
+    // Apply the application plugin to add support for building an application
+    id 'application'
+}
+
+
+
+repositories 
+{
+    mavenCentral()
+}
+
+dependencies 
+{
+    implementation 'com.google.code.gson:gson:2.8.4'
+    implementation 'com.google.guava:guava:23.0'
+}
